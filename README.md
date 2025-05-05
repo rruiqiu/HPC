@@ -1,7 +1,7 @@
 # High Performance Computing Labs
 
 ## Lab 1 – Dense Linear Algebra Optimization  
-Optimized General Matrix-Matrix Multiplication (GEMM) and General Matrix-Vector Multiplication (GEMV) using cache-aware tiling and AVX vectorization for improved CPU performance. View the full report [here]()
+Optimized General Matrix-Matrix Multiplication (GEMM) and General Matrix-Vector Multiplication (GEMV) using cache-aware tiling and AVX vectorization for improved CPU performance. View the full report [here](https://github.com/rruiqiu/HPC/blob/main/lab01/doc/lab1_report.pdf)
 
 ### Performance Speedup summary on Dense Neural Network: 
 
@@ -22,7 +22,7 @@ Optimized General Matrix-Matrix Multiplication (GEMM) and General Matrix-Vector 
 
 
 ## Lab 2 – Sparse Matrix Operations  
-Implemented Sparse Matrix-Matrix Multiplication (SpMM) and Sparse Matrix-Vector Multiplication (SpMV) using efficient sparse data structures, tiling, and vectorization to accelerate computation on sparse inputs. View the full report [here]()
+Implemented Sparse Matrix-Matrix Multiplication (SpMM) and Sparse Matrix-Vector Multiplication (SpMV) using efficient sparse data structures, tiling, and vectorization to accelerate computation on sparse inputs. View the full report [here](https://github.com/rruiqiu/HPC/blob/main/lab02/doc/lab2_report.pdf)
 
 #### SpMM (Sparse Matrix-Matrix Multiplication)
 
@@ -39,7 +39,7 @@ Implemented Sparse Matrix-Matrix Multiplication (SpMM) and Sparse Matrix-Vector 
 - **SpMV optimized implementation** showed **near 0% cache miss rate** at high sparsity, leading to reduced execution time in sparse conditions.
 
 ## Lab 3 – Parallel Matrix Multiplication with OpenMP  
-Introduced OpenMP-based parallelism to speed up GEMM and SpMM computations, with configurable thread count and loop scheduling strategy. View the full report [here]()
+Introduced OpenMP-based parallelism to speed up GEMM and SpMM computations, with configurable thread count and loop scheduling strategy. View the full report [here](https://github.com/rruiqiu/HPC/blob/main/lab03/doc/lab3_report.pdf)
 
 #### GEMM (General Matrix-Matrix Multiplication with OpenMP)
 
@@ -64,7 +64,7 @@ Introduced OpenMP-based parallelism to speed up GEMM and SpMM computations, with
 - **Static scheduling** with default chunk size yielded the best runtime due to uniform iteration cost and minimal overhead.
 
 ## Lab 4 – GPU Acceleration with CUDA and OpenCL  
-Developed and optimized GEMM implementations using both CUDA and OpenCL, leveraging GPU parallelism and memory management for high-throughput matrix computation. View the full report [here]()
+Developed and optimized GEMM implementations using both CUDA and OpenCL, leveraging GPU parallelism and memory management for high-throughput matrix computation. View the full report [here](https://github.com/rruiqiu/HPC/blob/main/lab04/doc/lab4_report.pdf)
 
 #### Implementation 1: OpenCL – Row-Based Decomposition
 
